@@ -1,7 +1,7 @@
 {
-  "name": "hexo-generator-category",
+  "name": "hexo-generator-order-category",
   "version": "1.0.0",
-  "description": "Category generator for Hexo.",
+  "description": "Category generator for Hexo with one's own order.",
   "main": "index",
   "scripts": {
     "eslint": "eslint .",
@@ -15,14 +15,15 @@
     "index.js",
     "lib/"
   ],
-  "repository": "hexojs/hexo-generator-category",
-  "homepage": "https://hexo.io/",
+  "repository": "guorant/hexo-generator-order-category",
+  "homepage": "https://github.com/guorant/hexo-generator-order-category",
   "keywords": [
     "hexo",
     "generator",
-    "category"
+    "category",
+    "order"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "yujunlong2000 <yujunlong2000@gmail.com> (http://srxy.lz5000.com)",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",

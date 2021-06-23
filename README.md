@@ -1,15 +1,15 @@
-# hexo-generator-category
+# hexo-generator-order-category
 
-[![Build Status](https://travis-ci.org/hexojs/hexo-generator-category.svg?branch=master)](https://travis-ci.org/hexojs/hexo-generator-category)
-[![NPM version](https://badge.fury.io/js/hexo-generator-category.svg)](https://www.npmjs.com/package/hexo-generator-category)
-[![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-generator-category.svg)](https://coveralls.io/r/hexojs/hexo-generator-category?branch=master)
+[![Build Status](https://travis-ci.org/guorant/hexo-generator-order-category.svg?branch=master)](https://travis-ci.org/guorant/hexo-generator-order-category)
+[![NPM version](https://badge.fury.io/js/hexo-generator-order-category.svg)](https://www.npmjs.com/package/hexo-generator-order-category)
+[![Coverage Status](https://img.shields.io/coveralls/guorant/hexo-generator-order-category.svg)](https://coveralls.io/r/guorant/hexo-generator-order-category?branch=master)
 
-Category generator for [Hexo].
+Category generator for [Hexo] with one's own order.
 
 ## Installation
 
 ``` bash
-$ npm install hexo-generator-category --save
+$ npm install hexo-generator-order-category --save
 ```
 
 ## Options
@@ -18,10 +18,13 @@ $ npm install hexo-generator-category --save
 category_generator:
   per_page: 10
   order_by: -date
+  order_exclude:
+  - Markdown
 ```
 
 - **per_page**: Posts displayed per page. (0 = disable pagination)
 - **order_by**: Posts order. (Order by date descending by default)
+- **order_exclude**: Categorys' name list with reverse order.
 
 ## License
 
