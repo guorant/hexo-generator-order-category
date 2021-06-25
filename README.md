@@ -20,11 +20,16 @@ category_generator:
   order_by: -date
   order_exclude:
   - Markdown
+  order_oneself:
+  - order_by: title
+    category:
+    - '老子章释|大爱弗居,自由民主'
 ```
 
 - **per_page**: Posts displayed per page. (0 = disable pagination)
 - **order_by**: Posts order. (Order by date descending by default)
 - **order_exclude**: Categorys' name list with reverse order.
+- **order_oneself**: Categorys' list with oneself's own order.
 
 ## License
 
