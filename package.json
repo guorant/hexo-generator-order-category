@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-order-category",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Category generator for Hexo with one's own order.",
   "main": "index",
   "scripts": {
